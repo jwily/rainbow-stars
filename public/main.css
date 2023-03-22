@@ -60,9 +60,13 @@ img {
   animation: popup 1s ease-out;
 }
 
-/* #radios {
-  display: none;
-} */
+#radios {
+
+  /* Ultimately we're going to hide this div */
+
+  display: flex;
+  justify-content: space-around;
+}
 
 #stars {
   margin-bottom: 1rem;
